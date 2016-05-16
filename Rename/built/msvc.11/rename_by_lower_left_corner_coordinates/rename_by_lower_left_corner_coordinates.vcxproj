@@ -50,7 +50,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(GDAL_LIB_LIST);$(BOOST_LIB_LIST);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(GOOGLE_GFLAGS_LIB_LIST);$(GDAL_LIB_LIST);$(BOOST_LIB_LIST);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -66,7 +66,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>$(GDAL_LIB_LIST);$(BOOST_LIB_LIST);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(GOOGLE_GFLAGS_LIB_LIST);$(GDAL_LIB_LIST);$(BOOST_LIB_LIST);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
